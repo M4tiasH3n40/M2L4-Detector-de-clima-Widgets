@@ -1,0 +1,24 @@
+@keyframes color-change {
+    0% {
+        color: red;
+    }
+    50% {
+        color: blue;
+    }
+    100% {
+        color: red;
+    }
+}
+
+h1 {
+    animation: color-change 3s infinite;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: red;
+}
+
+h1:hover {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
